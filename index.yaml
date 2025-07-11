@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  bookinfo-processor:
+  - apiVersion: v2
+    appVersion: develop-SNAPSHOT
+    created: "2025-07-11T10:55:58.89679+05:30"
+    description: A Helm chart for Bookinfo Processor microservice
+    digest: 161e79daa89b33fbb5618d2d1e4c50b676cf031ec750756e7d7ea232ae96d925
+    maintainers:
+    - email: your.email@example.com
+      name: Akhil Cheruvalath
+    name: bookinfo-processor
+    sources:
+    - https://github.com/AnshuH/bookinfo-source
+    type: application
+    urls:
+    - https://AnshuH.github.io/bookinfo-charts/bookinfo-processor-1.0.5-SNAPSHOT.tgz
+    version: 1.0.5-SNAPSHOT
+  bookinfo-service:
+  - apiVersion: v2
+    appVersion: develop-SNAPSHOT
+    created: "2025-07-11T10:55:58.897406+05:30"
+    description: A Helm chart for Bookinfo-Service microservice
+    digest: f2ecd6f5dfd6807d4444a42d14615ea24f0361d154722a91cebb2fd65068f401
+    maintainers:
+    - email: your.email@example.com
+      name: Akhil Cheruvalath
+    name: bookinfo-service
+    sources:
+    - https://github.com/AnshuH/bookinfo-source
+    type: application
+    urls:
+    - https://AnshuH.github.io/bookinfo-charts/bookinfo-service-1.0.7-SNAPSHOT.tgz
+    version: 1.0.7-SNAPSHOT
+generated: "2025-07-11T10:55:58.895913+05:30"
